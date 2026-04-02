@@ -1,9 +1,6 @@
 {
   "rewrites": [
     { "source": "/api/(.*)", "destination": "/api/$1" },
-    { "source": "/(.*)",     "destination": "/index.html" }
-  ],
-  "env": {
-    "MY_GROQ_KEY": "@MY_GROQ_KEY"
-  }
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
 }
