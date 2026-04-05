@@ -485,7 +485,7 @@ ${excelText}
             <h3 style={{margin:"0 0 12px",fontSize:15,color:C.txt}}>🏠 الوحدات المؤجرة</h3>
             <ResponsiveContainer width="100%" height={160}>
               <PieChart>
-                <Pie data={pie} cx="50%" cy="50%" innerRadius={38} outerRadius:60 dataKey="value" paddingAngle={3}>
+                <Pie data={pie} cx="50%" cy="50%" innerRadius={38} outerRadius={60} dataKey="value" paddingAngle={3}>
                   {pie.map((_,i) => <Cell key={i} fill={COLORS[i%5]}/>)}
                 </Pie>
                 <Tooltip formatter={v=>`${v} وحدة`}/>
